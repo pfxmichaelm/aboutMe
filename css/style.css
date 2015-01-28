@@ -1,0 +1,106 @@
+body {
+  /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "open Sans", "Helvetica Neue", sans-serif;
+}
+.masthead-heading,
+.masthead-intro, footer {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  boarder-top: solid 1em #FFCF33;
+  boarder-radius: 4px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(http://i1062.photobucket.com/albums/t487/pfxmichaelm/potatoes_zpse2263555.jpg)
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 4em;
+  color: white;
+  text-shadow: 2px 1px #523903;
+  padding: 0.5em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform:uppercase;
+  color: white;
+  text-shadow: 2.5px 1.5px #F2381F;
+  padding: 0.5em;
+}
+
+.section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+}
+
+.section > p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: gray;
+}
+
+.footer {
+  /*max-width: 38em;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  boarder-top: solid 1em #FFCF33;
+  background-size: cover;
+  background-color: #9b7848;
+  /*background-repeat: no-repeat;*/  
+  /*background-image: url(http://i1062.photobucket.com/albums/t487/pfxmichaelm/potatoes_zpse2263555.jpg)*/
+}
+
+.social > li {
+  display: inline-block;
+  padding: 1em;
+}
+
+.footer > P {
+  color: white;
+}
+
+.footer > ul {
+  color: white;
+}
+
+.footer > li {
+  color: white;
+}
+
+/* media queries */
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    padding: 2em 0;
+    /*font-size: 1em;*/
+  }
+}
